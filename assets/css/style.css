@@ -1,0 +1,901 @@
+* {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: #efefef;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+@font-face {
+  font-family: "1";
+  src: url("../font-family/Obviously-Narrow-Medium.ttf");
+}
+
+@font-face {
+  font-family: "2";
+  src: url("../font-family/Obviously-Regular.ttf");
+}
+
+@font-face {
+  font-family: "3";
+  src: url("../font-family/Obviously-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "4";
+  src: url("../font-family/Obviously-Wide-Bold.ttf");
+}
+
+.primary {
+  color: #000000;
+}
+
+.secondary {
+  background-color: #efefef;
+}
+
+.main-heading {
+  font-size: 38.1602px;
+}
+
+/* header */
+
+header {
+  background-color: #e50062;
+}
+
+header div.container {
+  max-width: 1300px;
+}
+
+.navbar {
+  min-height: 40px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.navbar-nav li a {
+  color: #ffffff !important;
+  font-weight: 540;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "2";
+}
+
+.navbar-nav li a:hover {
+  font-size: 17px;
+}
+
+/* banner-section */
+.banner {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  max-width: 100%;
+}
+
+.banner-content {
+  align-items: center;
+  min-height: 500px;
+}
+
+.banner-p {
+  
+  font-weight: 650;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "1";
+}
+
+.banner-p1 {
+  margin-bottom: -7px;
+}
+.banner-p4{
+  margin-top: -21px;
+}
+
+.banner h4 {
+  font-weight: 670;
+  font-size: 71.4515px;
+  line-height: 100%;
+  color: #e50062;
+  font-family: "3";
+}
+.banner h5.mega{
+  font-weight: 670;
+  font-size: 48.4515px;
+  line-height: 80%;
+  color: #e50062;
+  font-family: "3";
+
+}
+
+.banner h3 {
+  font-weight: 670;
+  font-size: 63.0199px;
+  line-height: 104px;
+  color: #e50062;
+  margin-top: -47px;
+  font-family: "3";
+}
+
+.banner-btn {
+  background-color: #e50062;
+  color: #efefef;
+  font-weight: 670;
+  font-size: 13.2653px;
+  line-height: 22px;
+  padding: 8px 94px;
+  border-radius: 17.9883px;
+  border: none;
+  font-family: "3";
+  max-width: 100%;
+  margin-top: 10px;
+}
+.banner-btn:hover {
+  background-color: rgba(8, 8, 245, 0.697);
+}
+
+/* consulte sua cobertura  */
+.planos div.card-body {
+  box-shadow: none;
+}
+
+.cobertura h4 {
+  color: #e50062;
+  font-weight: 360;
+
+  line-height: 40px;
+  margin: 20px 0px;
+  font-family: "1";
+  text-transform: uppercase;
+}
+
+.form-control {
+  font-weight: 530;
+  font-size: 13.3561px;
+  line-height: 20px;
+  font-family: "1";
+}
+
+.form-control-2 {
+  font-weight: 530;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.cobertura-search {
+  margin-bottom: 30px;
+}
+
+.cobertura a {
+  font-weight: 540;
+  font-size: 11px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.form-check {
+  font-size: 11px;
+}
+
+.form-check-input {
+  margin-top: 8px;
+}
+
+.form-check-label {
+  margin-top: 4px;
+}
+
+.cobertura-btn {
+  background: #e50062;
+  border-radius: 20.552px;
+  font-weight: 670;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "4";
+  border: none;
+}
+.cobertura-btn:hover {
+  background-color: rgba(8, 8, 245, 0.697);
+}
+
+/* conheca nossos planos  */
+.planos {
+  background-color: #000000;
+}
+
+.planos div.card {
+  min-height: 200px;
+}
+
+.planos-card-1 {
+  border: 4px solid #e50062;
+  border-radius: 19.0801px;
+  box-shadow: none;
+}
+
+.planos-card-2 {
+  border-radius: 19.0801px;
+}
+
+.planos h4 {
+  font-weight: 360;
+  font-size: 40px;
+  line-height: 57px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "1";
+  margin: 22px 0px;
+}
+.planos-content-1 h2.mega{
+  font-size: 47px;
+  /* line-height: 70%; */
+}
+
+.planos-img-1 {
+  position: relative;
+  top: 0px;
+  left: -1px;
+}
+
+.planos h2 {
+  font-weight: 670;
+
+  line-height: 100%;
+  color: #e50062;
+  font-family: "4";
+}
+
+.planos-common-h {
+  font-size: 70.0031px;
+}
+
+.planos-p-1 {
+  font-weight: 640;
+  font-size: 17.1721px;
+  line-height: 20px;
+  font-family: "2";
+}
+
+.planos-p-1 {
+  margin-top: -118px;
+}
+
+.planos-content-2 {
+  background-color: #efefef;
+}
+
+.planos-content-2 img {
+  margin-right: 4px;
+  max-width: 100%;
+}
+
+.planos-content-3 sup {
+  font-weight: 670;
+  font-size: 11.4481px;
+  line-height: 19px;
+  position: relative;
+  top: -32px;
+  left: 21px;
+  font-family: "4";
+}
+
+.planos-content-3 p {
+  position: relative;
+  top: -10px;
+
+  color: #e50062;
+  font-family: "4";
+}
+
+.planos-content-3 h2 {
+  font-weight: 670;
+  font-size: 55.7804px;
+  line-height: 110px;
+  font-family: "4";
+}
+
+.planos-content-3 button {
+  font-size: 20px;
+  padding: 15px 80px;
+  margin: 15px 0px;
+
+  background-color: #e50062;
+  border-radius: 30.5139px;
+  border: none;
+  font-family: "4";
+  max-width: 100%;
+}
+.planos-btn-2 button{
+  margin-top: 2px;
+}
+
+.planos-content-4 h2 {
+  margin-top: 23px;
+}
+
+.planos-content-4 h5 {
+  margin: 23px 0px;
+  text-transform: uppercase;
+  font-weight: 640;
+  font-size: 19.0801px;
+  line-height: 133%;
+  font-family: "2";
+}
+
+/* proposito */
+.proposito h2 {
+  font-weight: 560;
+  font-size: 19.0801px;
+  line-height: 31px;
+  font-family: "3";
+}
+
+.proposito h4 {
+  font-size: 38.1602px;
+  font-weight: 360;
+  line-height: 46px;
+  font-family: "1";
+  text-transform: uppercase;
+}
+.proposito-p{
+  font-weight: 530;
+font-size: 15.2641px;
+line-height: 23px;
+font-family: "1";
+}
+
+.proposito-img img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.proposito-img {
+  margin-bottom: 65px;
+}
+
+.proposito-card-body {
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 20.6887px;
+  margin-bottom: 14px;
+  box-shadow: 1px 2px 8px grey;
+}
+
+.proposito-img p {
+  font-weight: 700;
+  font-size: 13.3453px;
+  line-height: 21px;
+ 
+}
+
+/* obvious na midia */
+.obvious-media {
+  background-color: white;
+}
+
+.obvious-media h4.media-h {
+  text-transform: uppercase;
+  line-height: 55px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+  /* font-weight: 360; */
+}
+
+.media-icon {
+  margin-bottom: 50px;
+}
+
+.obvious-media li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.obvious-media img {
+  max-width: 100%;
+}
+
+/* Perguntas Frequentes  */
+
+.frequentes h4 {
+  font-weight: 360;
+
+  line-height: 46px;
+  text-transform: uppercase;
+  margin: 30px 0px;
+  font-family: "3";
+
+  color: #e50062;
+  font-family: "2";
+}
+.frequentes h5 {
+  font-weight: 540;
+  font-size: 13.3561px;
+  line-height: 21px;
+  font-family: "3";
+}
+
+.frequentes-collapse {
+  margin-bottom: 80px;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-left: 6px solid #e50062;
+}
+
+.frequentes div.card-body {
+  min-height: 100px;
+  border-radius: 0px;
+  box-shadow: none;
+  word-wrap: break-word;
+  border-left: 6px solid #e50062;
+  font-weight: 530;
+  font-size: 11.4481px;
+  line-height: 18px;
+  font-family: "2";
+}
+
+.accordion > .card:not(:last-of-type) {
+  margin: 10px 0px;
+}
+/* footer */
+footer{
+  background-color: #e50062;
+  min-height: 250px;
+}
+
+.footer-p1 {
+  font-weight: 560;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "3";
+}
+
+.footer-email {
+  font-weight: 540;
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: -15px;
+  margin-bottom: 1px;
+  word-break: break-word;
+  font-family: "2";
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer ul li {
+  margin: 4px 6px;
+}
+
+.footer-p2 {
+  font-weight: 540;
+  font-size: 12px;
+  line-height: 19px;
+  font-family: "2";
+}
+
+@media only screen and (max-width: 1200px) {
+  /* header-section */
+  header ul li a {
+    font-size: 14px;
+  }
+
+  /* conheca nossos planos  */
+  .planos-common-h {
+    font-size: 59.0031px;
+  }
+  .planos-content-1 h2.mega{
+    font-size: 41px;
+  }
+
+  .planos-content-3 h2 {
+    font-size: 44.7804px;
+  }
+
+  .planos-content-3 sup {
+    top: -24px;
+    left: 16px;
+  }
+
+  .planos-content-3 p {
+    top: -21px;
+
+   
+  }
+
+  .planos-content-3 button {
+    font-size: 14px;
+  }
+  
+   /* proposito */
+.proposito h4 {
+    font-size: 35.1602px;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-heading {
+    font-size: 34.1602px;
+  }
+
+  /* banner-section */
+  .banner {
+    background-image: url("../images/banner-mb.png");
+  }
+
+  .banner h4 {
+    font-size: 60.4515px;
+  }
+  .banner h5.mega{
+    
+    font-size: 41.4515px;
+   
+  
+  }
+
+  .banner h3 {
+    font-size: 55.0199px;
+  }
+  .banner-p4{
+    margin-top: -24px;
+  }
+
+  .banner-btn {
+    font-size: 11.2653px;
+
+    padding: 7px 78px;
+  }
+
+  /* conheca nossos planos  */
+  .planos h4 {
+    font-size: 36px;
+  }
+
+  .planos-p-1 {
+    font-size: 14.1721px;
+  }
+
+  .planos-common-h {
+    font-size: 59.0031px;
+  }
+
+  .planos-content-3 h2 {
+    font-size: 40.7804px;
+  }
+
+  .planos-content-3 sup {
+    top: -21px;
+    left: 14px;
+  }
+
+  .planos-content-3 p {
+    top: -20px;
+
+    right: 93px;
+  }
+
+  .planos-content-3 button {
+    margin-top: 0px;
+  }
+
+    /* proposito */
+    .proposito h2 {
+     
+      font-size: 18.0801px;
+     
+    }
+   .proposito h4 {
+  font-size: 25.1602px;
+   }
+   .proposito-p{
+    
+  font-size: 14.2641px;
+  
+  }
+  /* Perguntas Frequentes  */
+  .frequentes h5 {
+    font-size: 12.3561px;
+  }
+  .frequentes div.card-body {
+    font-size: 10.4481px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 30.1602px;
+  }
+
+  /* banner-section */
+  .banner {
+    background-image: url("../images/banner-mb.png");
+  }
+
+  .banner h4 {
+    font-size: 50.4515px;
+  }
+  .banner h5.mega{
+    
+    font-size: 34.4515px;
+   
+  
+  }
+  .banner-p4{
+    margin-top: -30px;
+  }
+
+  .banner h3 {
+    font-size: 45.0199px;
+  }
+
+  .banner-btn {
+    font-size: 10.2653px;
+
+    padding: 6px 63px;
+  }
+
+  /* conheca nossos planos  */
+  .planos h4 {
+    font-size: 34px;
+  }
+
+  .planos-p-1 {
+    font-size: 14.1721px;
+  }
+
+  .planos-content-3 h2 {
+    font-size: 37.7804px;
+  }
+
+  .planos-content-3 sup {
+    top: -21px;
+    left: 12px;
+  }
+
+  .planos-content-3 p {
+    top: -27px;
+
+    
+  }
+
+  .planos-content-3 button {
+    margin-top: -22px;
+  }
+
+     /* proposito */
+     .proposito h2 {
+     
+      font-size: 17.0801px;
+     
+    }
+    .proposito h4 {
+  font-size: 25.1602px;
+   }
+   .proposito-p{
+    
+    font-size: 13.2641px;
+    
+    }
+
+  /* consulte sua cobertura  */
+
+  .cobertura-btn {
+    font-size: 14px;
+  }
+  /* Perguntas Frequentes  */
+  .frequentes h5 {
+    font-size: 11.3561px;
+  }
+  .frequentes div.card-body {
+    font-size: 9.4481px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main-heading {
+    font-size: 26.1602px;
+  }
+
+  /* banner-section */
+  
+ 
+  .banner h4 {
+    font-size: 40.4515px;
+  }  
+  .banner h5.mega{
+    
+    font-size: 28.4515px;
+   
+  
+  }
+
+  .banner h3 {
+    font-size: 35.0199px;
+  }
+  .banner-p {
+   
+    font-size: 10px;
+   
+}
+  .banner-p4{
+    margin-top: -35px;
+  }
+
+  .banner-btn {
+    font-size: 9.2653px;
+
+    padding: 6px 53px;
+  }
+
+  /* conheca nossos planos  */
+  .planos h4 {
+    font-size: 30px;
+  }
+
+  .planos-p-1 {
+    font-size: 12.1721px;
+  }
+
+  .planos-content-3 sup {
+    top: -11px;
+    left: 6px;
+    font-size: 9px;
+  }
+
+  .planos-content-3 h2 {
+    font-size: 20px;
+    margin-top: -21px;
+  }
+
+  .planos-content-3 p {
+    font-size: 9px;
+    top: -41px;
+    right: -13px;
+  }
+
+  .planos-content-3 button {
+    font-size: 8px;
+    padding: 7px 38px;
+    margin-top: -41px;
+  }
+
+  /* proposito  */
+  .proposito h2 {
+     
+    font-size: 16.0801px;
+   
+  }
+  .proposito h4 {
+    font-size: 20.1602px;
+  }
+  .proposito-p{
+    
+    font-size: 12.2641px;
+    
+    }
+
+  /* consulte sua cobertura  */
+
+  .cobertura-btn {
+    font-size: 12px;
+  }
+  /* Perguntas Frequentes  */
+  .frequentes h5 {
+    font-size: 10.3561px;
+  }
+  .frequentes div.card-body {
+    font-size: 8.4481px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .main-heading {
+    font-size: 20.1602px;
+  }
+
+  /* banner-section */
+  .banner h4 {
+    font-size: 30.4515px;
+  }
+  .banner h5.mega{
+    
+    font-size: 21.4515px;
+   
+  
+  }
+
+
+  .banner h3 {
+    font-size: 25.0199px;
+  }
+
+  .banner-btn {
+    font-size: 7.2653px;
+
+    padding: 3px 29px;
+  }
+
+  /* conheca nossos planos  */
+  .planos h4 {
+    font-size: 25px;
+  }
+
+  .planos-p-1 {
+    font-size: 8px;
+    margin-top: -62px;
+  }
+
+  .planos-common-h {
+    font-size: 34px;
+  }
+  .planos-content-1 h2.mega {
+    font-size: 24px;
+}
+
+  .planos-content-1 h5 {
+    font-size: 12px;
+  }
+
+  .planos-content-3 h2 {
+    margin-top: 10px;
+    font-size: 8.7804px;
+    line-height: 0px;
+  }
+
+  .planos-content-3 sup {
+    font-size: 5px;
+
+    top: -5px;
+    left: 3px;
+  }
+
+  .planos-content-3 p {
+    font-size: 4px;
+    top: -9px;
+  }
+
+  .planos-content-3 button {
+    font-size: 5px;
+    padding: 3px 22px;
+  }
+
+  /* proposito  */
+  .proposito h2 {
+     
+    font-size: 14.0801px;
+   
+  }
+  .proposito h4 {
+    font-size: 18.1602px;
+  }
+  .proposito-p{
+    
+    font-size: 10.2641px;
+    
+    }
+  /* consulte sua cobertura  */
+
+  .cobertura-btn {
+    font-size: 10px;
+  }
+   /* Perguntas Frequentes  */
+   .frequentes h5 {
+    font-size: 8.3561px;
+  }
+  .frequentes div.card-body {
+    font-size: 7.4481px;
+  }
+}
+}
