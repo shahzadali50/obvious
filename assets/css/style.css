@@ -1,12 +1,15 @@
 * {
+  margin: 0;
+  padding: 0;
   list-style: none;
   word-wrap: break-word;
 }
 
 body {
   background-color: #efefef;
-  padding: 0px 0px;
-  margin: 0px 0px;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -265,7 +268,7 @@ header div.container {
 }
 
 .planos-p-1 {
-  margin-top: -118px;
+  /* margin-top: -118px; */
 }
 
 .planos-content-2 {
